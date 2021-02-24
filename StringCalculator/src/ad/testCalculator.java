@@ -21,4 +21,8 @@ public class testCalculator {
 	public void singleValuedAnswer() {
 		assertEquals(calculator.add("1"),1);
 	}
+	@Test
+	public void twoValueCommaDelimiterAnswer() {
+		assertEquals(calculator.add("1,2"),3);
+	}
 }
