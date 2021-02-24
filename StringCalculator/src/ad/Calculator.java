@@ -2,11 +2,16 @@ package ad;
 
 public class Calculator {
 
-	public int add(String string) {
-		if(string.isEmpty()) {
+	public int add(String input) {
+		if(isEmpty(input)) {
 			return 0;
 		}
-		return Integer.parseInt(string);
+		return strToInt(input);
 	}
-
+	private boolean isEmpty(String input) {
+		return input.isEmpty();
+	}
+	private int strToInt(String input) {
+		return Integer.parseInt(input);
+	}
 }
