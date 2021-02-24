@@ -5,7 +5,8 @@
     <classes>
       <class name="ad.testCalculator">
         <methods>
-          <include name="emptyStringAnswerNull"/>
+          <include name="singleValuedAnswer"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- ad.testCalculator -->
     </classes>
