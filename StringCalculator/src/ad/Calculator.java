@@ -11,9 +11,12 @@ public class Calculator {
 			return strToInt(input);
 		}
 		else {
-			return strToInt(numbers[0])+strToInt(numbers[1]);
+			return getSum(numbers[0],numbers[1]);
 		}
 		
+	}
+	private int getSum(String numA,String numB) {
+		return strToInt(numA)+strToInt(numB);
 	}
 	private boolean isEmpty(String input) {
 		return input.isEmpty();

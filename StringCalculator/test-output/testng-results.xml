@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-25T11:53:08 IST" name="Default suite" finished-at="2021-02-25T11:53:08 IST" duration-ms="126">
+  <suite started-at="2021-02-25T11:58:17 IST" name="Default suite" finished-at="2021-02-25T11:58:17 IST" duration-ms="112">
     <groups>
     </groups>
-    <test started-at="2021-02-25T11:53:08 IST" name="Default test" finished-at="2021-02-25T11:53:08 IST" duration-ms="126">
+    <test started-at="2021-02-25T11:58:17 IST" name="Default test" finished-at="2021-02-25T11:58:17 IST" duration-ms="112">
       <class name="ad.testCalculator">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:53:08 IST" name="setup" finished-at="2021-02-25T11:53:08 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:58:17 IST" name="setup" finished-at="2021-02-25T11:58:17 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:53:08 IST" name="emptyStringAnswerNull" finished-at="2021-02-25T11:53:08 IST" duration-ms="19" status="PASS">
+        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:58:17 IST" name="emptyStringAnswerNull" finished-at="2021-02-25T11:58:17 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyStringAnswerNull -->
-        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:53:08 IST" name="singleValuedAnswer" finished-at="2021-02-25T11:53:08 IST" duration-ms="1" status="PASS">
+        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:58:17 IST" name="singleValuedAnswer" finished-at="2021-02-25T11:58:17 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValuedAnswer -->
-        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:53:08 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-02-25T11:53:08 IST" duration-ms="8" status="PASS">
+        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@2133814f]" started-at="2021-02-25T11:58:17 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-02-25T11:58:17 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoValueCommaDelimiterAnswer -->
