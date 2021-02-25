@@ -1,9 +1,9 @@
 package ad;
 
 public class Calculator {
-	 
+	 private static String delimeter = ",";
 	public int add(String input) {
-		String[] numbers = input.split(",");
+		String[] numbers = input.split(delimeter);
 		if(isEmpty(input)) {
 			return 0;
 		}
@@ -17,9 +17,9 @@ public class Calculator {
 		
 	}
 	private int getSum(String[] numbers) {
-		
+		int numbersSize = numbers.length;
 		int sum=0;
-		for(int i=0;i<numbers.length;i++) {
+		for(int i=0;i<numbersSize;i++) {
 			sum+=strToInt(numbers[i]);
 		}
 		return sum;
