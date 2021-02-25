@@ -29,4 +29,8 @@ public class testCalculator {
 	public void multivalueCommaDelimiterAnswer() {
 		assertEquals(calculator.add("1,2,3,4"),10);
 	}
+	@Test
+	public void twoValueNewLineDelimiterAnswer() {
+		assertEquals(calculator.add("1\n2"),3);
+	}
 }

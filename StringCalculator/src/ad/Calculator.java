@@ -17,10 +17,10 @@ public class Calculator {
 		
 	}
 	private int getSum(String[] numbers) {
-		int numbersSize = numbers.length;
+		
 		int sum=0;
-		for(int i=0;i<numbersSize;i++) {
-			sum+=strToInt(numbers[i]);
+		for(String number:numbers) {
+			sum+=strToInt(number);
 		}
 		return sum;
 	}

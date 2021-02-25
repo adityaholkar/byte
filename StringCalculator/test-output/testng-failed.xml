@@ -5,7 +5,7 @@
     <classes>
       <class name="ad.testCalculator">
         <methods>
-          <include name="multivalueCommaDelimiterAnswer"/>
+          <include name="twoValueNewLineDelimiterAnswer"/>
           <include name="setup"/>
         </methods>
       </class> <!-- ad.testCalculator -->
