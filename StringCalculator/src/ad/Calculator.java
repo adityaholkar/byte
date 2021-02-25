@@ -7,6 +7,9 @@ public class Calculator {
 		if(isEmpty(input)) {
 			return 0;
 		}
+		if(input.length() == 1) {
+			return strToInt(input);
+		}
 		else {
 			return strToInt(numbers[0])+strToInt(numbers[1]);
 		}
