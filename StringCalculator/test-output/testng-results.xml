@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-25T19:02:15 IST" name="Default suite" finished-at="2021-02-25T19:02:15 IST" duration-ms="83">
+  <suite started-at="2021-02-25T19:09:55 IST" name="Default suite" finished-at="2021-02-25T19:09:55 IST" duration-ms="113">
     <groups>
     </groups>
-    <test started-at="2021-02-25T19:02:15 IST" name="Default test" finished-at="2021-02-25T19:02:15 IST" duration-ms="83">
+    <test started-at="2021-02-25T19:09:55 IST" name="Default test" finished-at="2021-02-25T19:09:55 IST" duration-ms="113">
       <class name="ad.testCalculator">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="setup" finished-at="2021-02-25T19:02:15 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="setup" finished-at="2021-02-25T19:09:55 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="emptyStringAnswerNull" finished-at="2021-02-25T19:02:15 IST" duration-ms="9" status="PASS">
+        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="emptyStringAnswerNull" finished-at="2021-02-25T19:09:55 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyStringAnswerNull -->
-        <test-method signature="multivalueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="multivalueCommaDelimiterAnswer" finished-at="2021-02-25T19:02:15 IST" duration-ms="3" status="PASS">
+        <test-method signature="multivalueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="multivalueCommaDelimiterAnswer" finished-at="2021-02-25T19:09:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multivalueCommaDelimiterAnswer -->
-        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="singleValuedAnswer" finished-at="2021-02-25T19:02:15 IST" duration-ms="4" status="PASS">
+        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="singleValuedAnswer" finished-at="2021-02-25T19:09:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValuedAnswer -->
-        <test-method signature="supportDifferentDelimeter()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="supportDifferentDelimeter" finished-at="2021-02-25T19:02:15 IST" duration-ms="3" status="PASS">
+        <test-method signature="supportDifferentDelimeter()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="supportDifferentDelimeter" finished-at="2021-02-25T19:09:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- supportDifferentDelimeter -->
-        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-02-25T19:02:15 IST" duration-ms="2" status="PASS">
+        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-02-25T19:09:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoValueCommaDelimiterAnswer -->
-        <test-method signature="twoValueNewLineDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:02:15 IST" name="twoValueNewLineDelimiterAnswer" finished-at="2021-02-25T19:02:15 IST" duration-ms="2" status="PASS">
+        <test-method signature="twoValueNewLineDelimiterAnswer()[pri:0, instance:ad.testCalculator@23f7d05d]" started-at="2021-02-25T19:09:55 IST" name="twoValueNewLineDelimiterAnswer" finished-at="2021-02-25T19:09:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoValueNewLineDelimiterAnswer -->
