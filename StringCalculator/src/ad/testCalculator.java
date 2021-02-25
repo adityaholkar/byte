@@ -33,5 +33,8 @@ public class testCalculator {
 	public void twoValueNewLineDelimiterAnswer() {
 		assertEquals(calculator.add("1\n2,4"),7);
 	}
-	
+	@Test
+	public void supportDifferentDelimeter() {
+		assertEquals(calculator.add("//;\\n1;2"),3);
+	}
 }
