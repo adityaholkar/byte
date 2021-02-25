@@ -1,7 +1,7 @@
 package ad;
 
 public class Calculator {
-	 private static String delimeter = ",";
+	 private static String delimeter = ",|\n";
 	public int add(String input) {
 		String[] numbers = input.split(delimeter);
 		if(isEmpty(input)) {

@@ -31,6 +31,7 @@ public class testCalculator {
 	}
 	@Test
 	public void twoValueNewLineDelimiterAnswer() {
-		assertEquals(calculator.add("1\n2"),3);
+		assertEquals(calculator.add("1\n2,4"),7);
 	}
+	
 }
