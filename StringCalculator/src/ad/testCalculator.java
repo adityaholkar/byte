@@ -35,6 +35,6 @@ public class testCalculator {
 	}
 	@Test
 	public void supportDifferentDelimeter() {
-		assertEquals(calculator.add("//;\\n1;2"),3);
+		assertEquals(calculator.add("//;\n1;2"),3);
 	}
 }

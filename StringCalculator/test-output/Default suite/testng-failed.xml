@@ -5,6 +5,7 @@
     <classes>
       <class name="ad.testCalculator">
         <methods>
+          <include name="twoValueNewLineDelimiterAnswer"/>
           <include name="supportDifferentDelimeter"/>
           <include name="setup"/>
         </methods>

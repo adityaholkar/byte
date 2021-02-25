@@ -3,7 +3,7 @@ package ad;
 public class Calculator {
 	 private static String delimeter = ",|\n";
 	public int add(String input) {
-		String[] numbers = input.split(delimeter);
+		
 		if(isEmpty(input)) {
 			return 0;
 		}
@@ -11,7 +11,14 @@ public class Calculator {
 			return strToInt(input);
 		}
 		else {
+			if(input.matches("//(.*)\n(.*)")) {
+				String temp = Character.toString(input.charAt(2));
+				delimeter=delimeter+"|"+temp;
+				input = input.substring(4);
+			}
 			
+			
+			String[] numbers = input.split(delimeter);
 			return getSum(numbers);
 		}
 		
