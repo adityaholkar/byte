@@ -4,26 +4,46 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class Calculator {
-	 private static String delimeter = ",|\n";
-	 public int add(String input) {
-		
-		if(isEmpty(input)) {
+	private String delimeter;
+	private String numbers;
+
+	private Calculator(String delimeter, String numbers) {
+		this.delimeter = delimeter;
+		this.numbers = numbers;
+	}
+
+	public Calculator() {
+		// TODO Auto-generated constructor stub
+	}
+	private int sum() {
+		return Arrays.stream(numbers.split(delimeter))
+				.mapToInt(Integer::parseInt)
+				.sum();
+	}
+
+	public int add(String input) {
+
+		if (isEmpty(input)) {
 			return 0;
 		}
-		if(input.startsWith("//")) {
-			String[] parts = input.split("\n",2);
-			delimeter = delimeter+"|"+parts[0].substring(2);
-			input = parts[1];
+
+		return splitInput(input).sum();
+
+	}
+
+	
+
+	private static Calculator splitInput(String input) {
+		if (input.startsWith("//")) {
+			String[] parts = input.split("\n", 2);
+			return new Calculator(parts[0].substring(2), parts[1]);
+		} else {
+			return new Calculator(",|\n", input);
 		}
-		
-		
-		Stream<String> numbers = Arrays.stream(input.split(delimeter));
-		return numbers.mapToInt(Integer::parseInt).sum();
-		
-	 }
-	 
-	 private boolean isEmpty(String input) {
+	}
+
+	private boolean isEmpty(String input) {
 		return input.isEmpty();
-	 }
-	 
+	}
+
 }
