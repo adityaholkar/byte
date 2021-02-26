@@ -36,8 +36,9 @@ public class testCalculator {
 	@Test
 	public void supportDifferentDelimeter() {
 		assertEquals(calculator.add("//;\n1;2"),3);
-	
-		
-		
+	}
+	@Test(expectedExceptions  = IllegalArgumentException.class)
+	public void throwsOnNegativeNumber() {
+		calculator.add("-3");
 	}
 }

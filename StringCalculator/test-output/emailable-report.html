@@ -9,15 +9,43 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">75</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">114</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">ad.testCalculator</td><td><a href="#m0">emptyStringAnswerNull</a></td><td rowspan="1">1614350789521</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m1">multivalueCommaDelimiterAnswer</a></td><td rowspan="1">1614350789537</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m2">singleValuedAnswer</a></td><td rowspan="1">1614350789543</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m3">supportDifferentDelimeter</a></td><td rowspan="1">1614350789547</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">twoValueCommaDelimiterAnswer</a></td><td rowspan="1">1614350789550</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m5">twoValueNewLineDelimiterAnswer</a></td><td rowspan="1">1614350789554</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ad.testCalculator</td><td><a href="#m0">throwsOnNegativeNumber</a></td><td rowspan="1">1614359175706</td><td rowspan="1">2</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">ad.testCalculator</td><td><a href="#m1">emptyStringAnswerNull</a></td><td rowspan="1">1614359175662</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m2">multivalueCommaDelimiterAnswer</a></td><td rowspan="1">1614359175684</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m3">singleValuedAnswer</a></td><td rowspan="1">1614359175695</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m4">supportDifferentDelimeter</a></td><td rowspan="1">1614359175701</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m5">twoValueCommaDelimiterAnswer</a></td><td rowspan="1">1614359175713</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m6">twoValueNewLineDelimiterAnswer</a></td><td rowspan="1">1614359175717</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">ad.testCalculator#emptyStringAnswerNull</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ad.testCalculator#multivalueCommaDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">ad.testCalculator#singleValuedAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">ad.testCalculator#supportDifferentDelimeter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">ad.testCalculator#twoValueCommaDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">ad.testCalculator#twoValueNewLineDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">ad.testCalculator#throwsOnNegativeNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestException: 
+Method testCalculator.throwsOnNegativeNumber()[pri:0, instance:ad.testCalculator@7d3a22a9] should have thrown an exception of type class java.lang.IllegalArgumentException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+	at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:747)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:635)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ad.testCalculator#emptyStringAnswerNull</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ad.testCalculator#multivalueCommaDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ad.testCalculator#singleValuedAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ad.testCalculator#supportDifferentDelimeter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ad.testCalculator#twoValueCommaDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ad.testCalculator#twoValueNewLineDelimiterAnswer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
