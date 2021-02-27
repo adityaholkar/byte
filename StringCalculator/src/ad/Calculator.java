@@ -1,6 +1,7 @@
 package ad;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -18,7 +19,8 @@ public class Calculator {
 	}
 	private int sum() throws Exception {
 		if(getNumber().anyMatch(n -> n < 0)) {
-			throw new Exception("Negative Number :-3");
+			String negativeNumberSequence = getNumber().filter(n -> n<0).mapToObj(Integer::toString).collect(Collectors.joining(","));
+			throw new Exception("Negative Number :"+negativeNumberSequence);
 		}
 		return getNumber()
 				.sum();
