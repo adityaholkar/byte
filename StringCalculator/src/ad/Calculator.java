@@ -18,12 +18,19 @@ public class Calculator {
 		// TODO Auto-generated constructor stub
 	}
 	private int sum() throws Exception {
-		if(getNumber().anyMatch(n -> n < 0)) {
-			String negativeNumberSequence = getNumber().filter(n -> n<0).mapToObj(Integer::toString).collect(Collectors.joining(","));
-			throw new Exception("Negative Number :"+negativeNumberSequence);
-		}
+		ensureNoNegativeNumberInInput();
 		return getNumber()
 				.sum();
+	}
+
+	private void ensureNoNegativeNumberInInput() throws Exception {
+		String negativeNumberSequence = getNumber().filter(n -> n<0)
+				.mapToObj(Integer::toString)
+				.collect(Collectors.joining(","));
+		if(!isEmpty(negativeNumberSequence)) {
+			
+			throw new Exception("Negative Number :"+negativeNumberSequence);
+		}
 	}
 
 	private IntStream getNumber() {

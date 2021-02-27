@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 27 13:50:52 IST 2021</td>
+<td>Started on:</td><td>Sat Feb 27 13:56:39 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (55 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (146 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -97,8 +97,9 @@ function toggleAllBoxes() {
 <tr>
 <td title='ad.testCalculator.throwsOnAllNegativeNumberInInput()'><b>throwsOnAllNegativeNumberInInput</b><br>Test class: ad.testCalculator</td>
 <td><div><pre>java.lang.Exception: Negative Number :-3,-5,-13
-	at ad.Calculator.sum(Calculator.java:23)
-	at ad.Calculator.add(Calculator.java:40)
+	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
+	at ad.Calculator.sum(Calculator.java:21)
+	at ad.Calculator.add(Calculator.java:47)
 	at ad.testCalculator.throwsOnAllNegativeNumberInInput(testCalculator.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -128,10 +129,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2073707154", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2073707154'><pre>java.lang.Exception: Negative Number :-3,-5,-13
-	at ad.Calculator.sum(Calculator.java:23)
-	at ad.Calculator.add(Calculator.java:40)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1337335626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1337335626'><pre>java.lang.Exception: Negative Number :-3,-5,-13
+	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
+	at ad.Calculator.sum(Calculator.java:21)
+	at ad.Calculator.add(Calculator.java:47)
 	at ad.testCalculator.throwsOnAllNegativeNumberInInput(testCalculator.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -167,8 +169,9 @@ function toggleAllBoxes() {
 <tr>
 <td title='ad.testCalculator.throwsOnNegativeNumber()'><b>throwsOnNegativeNumber</b><br>Test class: ad.testCalculator</td>
 <td><div><pre>java.lang.Exception: Negative Number :-3
-	at ad.Calculator.sum(Calculator.java:23)
-	at ad.Calculator.add(Calculator.java:40)
+	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
+	at ad.Calculator.sum(Calculator.java:21)
+	at ad.Calculator.add(Calculator.java:47)
 	at ad.testCalculator.throwsOnNegativeNumber(testCalculator.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -198,10 +201,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1287934450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1287934450'><pre>java.lang.Exception: Negative Number :-3
-	at ad.Calculator.sum(Calculator.java:23)
-	at ad.Calculator.add(Calculator.java:40)
+</pre></div><a href='#' onClick='toggleBox("stack-trace7967307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7967307'><pre>java.lang.Exception: Negative Number :-3
+	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
+	at ad.Calculator.sum(Calculator.java:21)
+	at ad.Calculator.add(Calculator.java:47)
 	at ad.testCalculator.throwsOnNegativeNumber(testCalculator.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
