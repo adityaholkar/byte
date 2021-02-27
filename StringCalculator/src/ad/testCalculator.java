@@ -47,4 +47,8 @@ public class testCalculator {
 			assertEquals(calculator.add("1,-3,3,-5,-13"),"Negative Number :-3,-5,-13");
 		
 	}
+	@Test
+	public void getTotalCountOfAdd() {
+		assertEquals(calculator.GetCalledCount(),8);
+	}
 }

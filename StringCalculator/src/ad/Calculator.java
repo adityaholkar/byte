@@ -13,7 +13,7 @@ public class Calculator {
 		this.delimeter = delimeter;
 		this.numbers = numbers;
 	}
-
+	
 	public Calculator() {
 		// TODO Auto-generated constructor stub
 	}
@@ -43,7 +43,7 @@ public class Calculator {
 		if (isEmpty(input)) {
 			return 0;
 		}
-
+		
 		return splitInput(input).sum();
 
 	}
@@ -62,5 +62,7 @@ public class Calculator {
 	private boolean isEmpty(String input) {
 		return input.isEmpty();
 	}
+
+	
 
 }
