@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 27 14:16:45 IST 2021</td>
+<td>Started on:</td><td>Sat Feb 27 14:19:23 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (80 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (112 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='ad.testCalculator.getTotalCountOfAdd()'><b>getTotalCountOfAdd</b><br>Test class: ad.testCalculator</td>
-<td><div><pre>java.lang.Error: Unresolved compilation problem: 
-	The method GetCalledCount() is undefined for the type Calculator
-
+<td><div><pre>java.lang.AssertionError: expected [8] but found [0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
 	at ad.testCalculator.getTotalCountOfAdd(testCalculator.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -108,10 +112,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1002021887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1002021887'><pre>java.lang.Error: Unresolved compilation problem: 
-	The method GetCalledCount() is undefined for the type Calculator
-
+</pre></div><a href='#' onClick='toggleBox("stack-trace1156304131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1156304131'><pre>java.lang.AssertionError: expected [8] but found [0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
 	at ad.testCalculator.getTotalCountOfAdd(testCalculator.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -207,8 +215,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1287934450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1287934450'><pre>java.lang.Exception: Negative Number :-3,-5,-13
+</pre></div><a href='#' onClick='toggleBox("stack-trace166794956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace166794956'><pre>java.lang.Exception: Negative Number :-3,-5,-13
 	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
 	at ad.Calculator.sum(Calculator.java:21)
 	at ad.Calculator.add(Calculator.java:47)
@@ -279,8 +287,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace692331943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace692331943'><pre>java.lang.Exception: Negative Number :-3
+</pre></div><a href='#' onClick='toggleBox("stack-trace447212746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace447212746'><pre>java.lang.Exception: Negative Number :-3
 	at ad.Calculator.ensureNoNegativeNumberInInput(Calculator.java:32)
 	at ad.Calculator.sum(Calculator.java:21)
 	at ad.Calculator.add(Calculator.java:47)

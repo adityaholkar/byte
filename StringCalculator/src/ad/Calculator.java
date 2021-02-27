@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class Calculator {
 	private String delimeter;
 	private String numbers;
-
+	public int count=0;
 	private Calculator(String delimeter, String numbers) {
 		this.delimeter = delimeter;
 		this.numbers = numbers;
@@ -43,7 +43,7 @@ public class Calculator {
 		if (isEmpty(input)) {
 			return 0;
 		}
-		
+		count++;
 		return splitInput(input).sum();
 
 	}
@@ -61,6 +61,11 @@ public class Calculator {
 
 	private boolean isEmpty(String input) {
 		return input.isEmpty();
+	}
+
+	public int GetCalledCount() {
+		// TODO Auto-generated method stub
+		return count;
 	}
 
 	
