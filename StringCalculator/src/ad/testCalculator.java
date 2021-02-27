@@ -42,4 +42,9 @@ public class testCalculator {
 	public void throwsOnNegativeNumber() throws Exception {
 		assertEquals(calculator.add("-3"),"Negative Number :-3");
 	}
+	@Test(expectedExceptions =Exception.class)
+		public void throwsOnAllNegativeNumberInInput() throws Exception {
+			assertEquals(calculator.add("1,-3,3,-5,-13"),"Negative Number :-3,-5,-13");
+		
+	}
 }
