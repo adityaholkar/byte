@@ -1,6 +1,7 @@
 package ad;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Calculator {
@@ -15,13 +16,20 @@ public class Calculator {
 	public Calculator() {
 		// TODO Auto-generated constructor stub
 	}
-	private int sum() {
-		return Arrays.stream(numbers.split(delimeter))
-				.mapToInt(Integer::parseInt)
+	private int sum() throws Exception {
+		if(getNumber().anyMatch(n -> n < 0)) {
+			throw new Exception("Negative Number :-3");
+		}
+		return getNumber()
 				.sum();
 	}
 
-	public int add(String input) {
+	private IntStream getNumber() {
+		return Arrays.stream(numbers.split(delimeter))
+				.mapToInt(Integer::parseInt);
+	}
+
+	public int add(String input) throws Exception {
 
 		if (isEmpty(input)) {
 			return 0;
