@@ -8,17 +8,22 @@ import java.util.stream.Stream;
 public class Calculator {
 	private String delimeter;
 	private String numbers;
-	public int count=0;
-	private Calculator(String delimeter, String numbers) {
+	public static int count;
+	
+	Calculator(String delimeter, String numbers) {
 		this.delimeter = delimeter;
 		this.numbers = numbers;
+		
 	}
 	
-	public Calculator() {
+	Calculator() {
 		// TODO Auto-generated constructor stub
+		
 	}
 	private int sum() throws Exception {
+		
 		ensureNoNegativeNumberInInput();
+		
 		return getNumber()
 				.sum();
 	}
@@ -39,11 +44,11 @@ public class Calculator {
 	}
 
 	public int add(String input) throws Exception {
-
+		count++;
 		if (isEmpty(input)) {
 			return 0;
 		}
-		count++;
+		
 		return splitInput(input).sum();
 
 	}
@@ -59,13 +64,14 @@ public class Calculator {
 		}
 	}
 
-	private boolean isEmpty(String input) {
+	private static boolean isEmpty(String input) {
 		return input.isEmpty();
 	}
 
-	public int GetCalledCount() {
-		// TODO Auto-generated method stub
+	public static  int GetCalledCount() {
+		System.out.print(count);
 		return count;
+	
 	}
 
 	

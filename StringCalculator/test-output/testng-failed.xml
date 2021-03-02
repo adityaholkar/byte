@@ -6,7 +6,6 @@
       <class name="ad.testCalculator">
         <methods>
           <include name="getTotalCountOfAdd"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- ad.testCalculator -->
     </classes>
