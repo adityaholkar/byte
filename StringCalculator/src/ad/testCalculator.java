@@ -38,11 +38,13 @@ public class testCalculator {
 	public void twoValueNewLineDelimiterAnswer() throws Exception {
 		
 		assertEquals(calculator.add("1\n2,4"),7);
+		
 	}
 	@Test
 	public void supportDifferentDelimeter() throws Exception {
 		
 		assertEquals(calculator.add("//;\n1;2"),3);
+		assertEquals(calculator.add("//.\n1.2.3"),6);
 	}
 	@Test(expectedExceptions =Exception.class)
 	public void throwsOnNegativeNumber() throws Exception {
@@ -59,6 +61,6 @@ public class testCalculator {
 	@Test(priority =9)
 	public void getTotalCountOfAdd() {
 		
-		assertEquals(Calculator.GetCalledCount(),8);
+		assertEquals(Calculator.GetCalledCount(),9);
 	}
 }
