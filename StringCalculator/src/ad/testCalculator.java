@@ -67,4 +67,8 @@ public class testCalculator {
 	public void ignoreNumberGreaterThan1000() throws Exception {
 		assertEquals(calculator.add("2,1002"),2);
 	}
+	@Test
+	public void delimiterOfAnyLength() throws Exception {
+		assertEquals(calculator.add("//[***]\n1***2***3"),6);
+	}
 }
