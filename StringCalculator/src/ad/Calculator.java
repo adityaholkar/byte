@@ -41,7 +41,8 @@ public class Calculator {
 
 	private IntStream getNumber() {
 		return Arrays.stream(numbers.split(delimeter))
-				.mapToInt(Integer::parseInt);
+				.mapToInt(Integer::parseInt)
+				;
 	}
 
 	public int add(String input) throws Exception {

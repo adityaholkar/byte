@@ -61,6 +61,10 @@ public class testCalculator {
 	@Test(priority =9)
 	public void getTotalCountOfAdd() {
 		
-		assertEquals(Calculator.GetCalledCount(),9);
+		assertEquals(Calculator.GetCalledCount(),10);
+	}
+	@Test
+	public void ignoreNumberGreaterThan1000() throws Exception {
+		assertEquals(calculator.add("2,1002"),2);
 	}
 }
