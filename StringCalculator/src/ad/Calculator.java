@@ -68,7 +68,11 @@ public class Calculator {
 	}
 
 	private static String parseDelimiterFromHead(String head) {
-		return Pattern.quote(head.substring(2));
+		String newDelimeter = head.substring(2);
+		if(newDelimeter.startsWith("[")) {
+			newDelimeter = newDelimeter.substring(1, newDelimeter.length()-1);
+		}
+		return Pattern.quote(newDelimeter);
 	}
 
 	private static boolean isEmpty(String input) {

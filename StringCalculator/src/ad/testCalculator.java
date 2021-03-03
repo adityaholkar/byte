@@ -1,5 +1,4 @@
 package ad;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
@@ -61,7 +60,7 @@ public class testCalculator {
 	@Test(priority =9)
 	public void getTotalCountOfAdd() {
 		
-		assertEquals(Calculator.GetCalledCount(),10);
+		assertEquals(Calculator.GetCalledCount(),12);
 	}
 	@Test
 	public void ignoreNumberGreaterThan1000() throws Exception {
@@ -70,5 +69,9 @@ public class testCalculator {
 	@Test
 	public void delimiterOfAnyLength() throws Exception {
 		assertEquals(calculator.add("//[***]\n1***2***3"),6);
+	}
+	@Test
+	public void multipleDelimiterWithMultipleLength() throws Exception {
+		assertEquals(calculator.add("[*][%]\n1*2%3"),6);
 	}
 }
