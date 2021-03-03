@@ -42,7 +42,7 @@ public class Calculator {
 	private IntStream getNumber() {
 		return Arrays.stream(numbers.split(delimeter))
 				.mapToInt(Integer::parseInt)
-				;
+				.filter(n -> n< 1000);
 	}
 
 	public int add(String input) throws Exception {
