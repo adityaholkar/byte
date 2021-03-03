@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-03T13:11:29 IST" name="Default suite" finished-at="2021-03-03T13:11:29 IST" duration-ms="203">
+  <suite started-at="2021-03-03T13:16:26 IST" name="Default suite" finished-at="2021-03-03T13:16:26 IST" duration-ms="155">
     <groups>
     </groups>
-    <test started-at="2021-03-03T13:11:29 IST" name="Default test" finished-at="2021-03-03T13:11:29 IST" duration-ms="203">
+    <test started-at="2021-03-03T13:16:26 IST" name="Default test" finished-at="2021-03-03T13:16:26 IST" duration-ms="155">
       <class name="ad.testCalculator">
-        <test-method is-config="true" signature="init()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="init" finished-at="2021-03-03T13:11:29 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="init" finished-at="2021-03-03T13:16:26 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="delimiterOfAnyLength()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="delimiterOfAnyLength" finished-at="2021-03-03T13:11:29 IST" duration-ms="22" status="PASS">
+        <test-method signature="delimiterOfAnyLength()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="delimiterOfAnyLength" finished-at="2021-03-03T13:16:26 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delimiterOfAnyLength -->
-        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="emptyStringAnswerNull" finished-at="2021-03-03T13:11:29 IST" duration-ms="4" status="PASS">
+        <test-method signature="emptyStringAnswerNull()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="emptyStringAnswerNull" finished-at="2021-03-03T13:16:26 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyStringAnswerNull -->
-        <test-method signature="ignoreNumberGreaterThan1000()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="ignoreNumberGreaterThan1000" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="ignoreNumberGreaterThan1000()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="ignoreNumberGreaterThan1000" finished-at="2021-03-03T13:16:26 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ignoreNumberGreaterThan1000 -->
-        <test-method signature="multipleDelimiterWithMultipleLength()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="multipleDelimiterWithMultipleLength" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="multipleDelimiterWithMultipleLength()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="multipleDelimiterWithMultipleLength" finished-at="2021-03-03T13:16:26 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleDelimiterWithMultipleLength -->
-        <test-method signature="multivalueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="multivalueCommaDelimiterAnswer" finished-at="2021-03-03T13:11:29 IST" duration-ms="1" status="PASS">
+        <test-method signature="multivalueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="multivalueCommaDelimiterAnswer" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multivalueCommaDelimiterAnswer -->
-        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="singleValuedAnswer" finished-at="2021-03-03T13:11:29 IST" duration-ms="1" status="PASS">
+        <test-method signature="singleValuedAnswer()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="singleValuedAnswer" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValuedAnswer -->
-        <test-method signature="supportDifferentDelimeter()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="supportDifferentDelimeter" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="supportDifferentDelimeter()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="supportDifferentDelimeter" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- supportDifferentDelimeter -->
-        <test-method signature="throwsOnAllNegativeNumberInInput()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="throwsOnAllNegativeNumberInInput" finished-at="2021-03-03T13:11:29 IST" duration-ms="3" status="PASS">
+        <test-method signature="throwsOnAllNegativeNumberInInput()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="throwsOnAllNegativeNumberInInput" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Negative Number :-3,-5,-13]]>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- throwsOnAllNegativeNumberInInput -->
-        <test-method signature="throwsOnNegativeNumber()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="throwsOnNegativeNumber" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="throwsOnNegativeNumber()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="throwsOnNegativeNumber" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Negative Number :-3]]>
@@ -129,15 +129,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- throwsOnNegativeNumber -->
-        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="twoValueCommaDelimiterAnswer()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="twoValueCommaDelimiterAnswer" finished-at="2021-03-03T13:16:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoValueCommaDelimiterAnswer -->
-        <test-method signature="twoValueNewLineDelimiterAnswer()[pri:0, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="twoValueNewLineDelimiterAnswer" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="twoValueNewLineDelimiterAnswer()[pri:0, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="twoValueNewLineDelimiterAnswer" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoValueNewLineDelimiterAnswer -->
-        <test-method signature="getTotalCountOfAdd()[pri:9, instance:ad.testCalculator@4d3c6593]" started-at="2021-03-03T13:11:29 IST" name="getTotalCountOfAdd" finished-at="2021-03-03T13:11:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="getTotalCountOfAdd()[pri:9, instance:ad.testCalculator@23529fee]" started-at="2021-03-03T13:16:26 IST" name="getTotalCountOfAdd" finished-at="2021-03-03T13:16:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTotalCountOfAdd -->
