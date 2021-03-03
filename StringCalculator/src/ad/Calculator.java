@@ -71,6 +71,7 @@ public class Calculator {
 		String newDelimeter = head.substring(2);
 		if(newDelimeter.startsWith("[")) {
 			newDelimeter = newDelimeter.substring(1, newDelimeter.length()-1);
+			return Stream.of(newDelimeter.split("]\\[")).map(Pattern::quote).collect(Collectors.joining("|"));
 		}
 		return Pattern.quote(newDelimeter);
 	}

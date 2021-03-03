@@ -72,6 +72,6 @@ public class testCalculator {
 	}
 	@Test
 	public void multipleDelimiterWithMultipleLength() throws Exception {
-		assertEquals(calculator.add("[*][%]\n1*2%3"),6);
+		assertEquals(calculator.add("//[*][%]\n1*2%3"),6);
 	}
 }
