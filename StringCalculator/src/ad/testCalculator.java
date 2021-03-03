@@ -60,7 +60,7 @@ public class testCalculator {
 	@Test(priority =9)
 	public void getTotalCountOfAdd() {
 		
-		assertEquals(Calculator.GetCalledCount(),12);
+		assertEquals(Calculator.GetCalledCount(),13);
 	}
 	@Test
 	public void ignoreNumberGreaterThan1000() throws Exception {
@@ -73,5 +73,6 @@ public class testCalculator {
 	@Test
 	public void multipleDelimiterWithMultipleLength() throws Exception {
 		assertEquals(calculator.add("//[*][%]\n1*2%3"),6);
+		assertEquals(calculator.add("//[***][$$$]\n1***2$$$3"),6);
 	}
 }
