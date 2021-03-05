@@ -83,7 +83,7 @@ public class Calculator {
 	}
 
 	public static  int GetCalledCount() {
-		System.out.print(count);
+		
 		return count;
 	
 	}
